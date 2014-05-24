@@ -2,7 +2,7 @@
 layout: post
 title: "2013年终总结"
 description: ""
-category: 
+category: '笔记'
 tags: []
 ---
 {% include JB/setup %}
