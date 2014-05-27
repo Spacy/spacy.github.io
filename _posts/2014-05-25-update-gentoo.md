@@ -7,7 +7,9 @@ tags: []
 ---
 
 - Update repositories
+````
     emerge --sync
+````
 
 - Update *portage* if updated
     emerge --oneshot portage
