@@ -49,9 +49,14 @@ genkernel --firmware
 ```
   Remember to update the grub configure file
 
-- Reboot and remove the distfiles
+- Unmerge packages that are no needed
 ```
-eclean-dist
+emerge --depclean (-vp)
+```
+
+- Reboot and remove the distfiles, see *man eclean*
+```
+eclean-dist (--deep)
 ```
 
 
