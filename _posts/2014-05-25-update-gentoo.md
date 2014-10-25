@@ -8,6 +8,7 @@ tags: []
 
 - Update repositories
 ```shell
+layman -s gentoo-zh (for my env)
 emerge --sync
 ```
 
