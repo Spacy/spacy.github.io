@@ -45,7 +45,7 @@ etc-update
 
 - Generate initramfs if you use firmwares or have seperate file system for /usr or /var. I use the option *--firmware*
 ```
-genkernel --firmware
+genkernel --firmware initramfs
 ```
   Remember to update the grub configure file
 
