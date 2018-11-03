@@ -1,0 +1,17 @@
+background
+emerge -C glibc
+can't install by emerge
+
+resolve
+download gentoo stage3 package and unzip to stage3
+# cd stage3
+# mount -t proc none proc
+# mount --rbind /sys sys
+# mount --bind /dev dev
+# chroot . bash -l
+# quickpkg sys-libs/glibc
+# exit
+# cp usr/portage/packages /usr/portage/ -r
+# emerge -Ka sys-libs/glibc
+
+glibc recovered
